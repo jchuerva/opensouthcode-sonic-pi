@@ -15,3 +15,11 @@
 - Sound Graphs -> `sound_graphs.rb`
 	- goals Malaga 21/22 vs 22/23
 	- points Malaga 21/22 vs 22/23
+
+
+## Juegos
+1. Arregla la cancion (cumple años feliz)
+2. Arregla la banda
+3. Arregla la gráfica
+4. Usa ChatGPT para hacer tu propia cancion. Añade bateria, bajo y melodia!
+5. Juega con el rock!!
