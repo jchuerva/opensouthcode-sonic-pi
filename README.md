@@ -22,7 +22,7 @@
 2. Arregla la banda
 3. Arregla la gráfica
 4. Usa ChatGPT para hacer tu propia cancion. Añade bateria, bajo y melodia!
-5. Juega con el rock!!
+5. Juega con el rock!!Haz la melodía aleatoria!
 
 
 ## Recursos

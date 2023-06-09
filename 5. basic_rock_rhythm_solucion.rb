@@ -1,5 +1,5 @@
 # Simple Rock Rhythm
-# Cambia la melodia!! Hazla aleatoria!
+# Cambia la melodia!! Hazla aleatoria! (solucion)
 
 # Set the tempo and loop length
 use_bpm 120
@@ -26,14 +26,14 @@ live_loop :drums do
   sleep 1
 end
 
-# melody
+# random melody
 live_loop :melody do
   use_synth :piano
   notes = [:E4, :G4, :A4, :E4, :D4, :E4, :G4, :E4]
   durations = [0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 2]
-  
-  notes.zip(durations).each do |note, duration|
-    play note, release: duration, amp: 0.5
+
+  durations.each do |duration|
+    play notes.choose, release: duration, amp: 0.5
     sleep duration
   end
 end
