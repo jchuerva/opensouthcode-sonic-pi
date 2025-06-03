@@ -23,6 +23,8 @@
 3. Arregla la gráfica
 4. Usa ChatGPT para hacer tu propia cancion. Añade bateria, bajo y melodia!
 5. Juega con el rock!!Haz la melodía aleatoria!
+6. Remix the Beat!
+7. Make the Drums Dance!
 
 
 ## Recursos
@@ -43,3 +45,12 @@ Ideas:
 - Ejemplos: https://github.com/jchuerva/Sonic-Pi-Examples
 - Cheatsheet: https://gist.github.com/jchuerva/dd5e16bd47d3cb8c02efbe71d593822c
 - http://sonic-pi.mehackit.org/exercises/es/11-templates/02-band-example.html
+
+# Earsketch
+
+Web: [https://earsketch.gatech.edu/](https://earsketch.gatech.edu/)
+
+## Juegos
+1. You’re the Drummer
+2. Remix the Beat!
+3. Make the Drums Dance!
