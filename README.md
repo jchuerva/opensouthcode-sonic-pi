@@ -51,6 +51,6 @@ Ideas:
 Web: [https://earsketch.gatech.edu/](https://earsketch.gatech.edu/)
 
 ## Juegos
-1. You’re the Drummer
-2. Remix the Beat!
-3. Make the Drums Dance!
+1. [You’re the Drummer](https://github.com/jchuerva/opensouthcode-sonic-pi/blob/main/earsketch_You%E2%80%99re_the_Drummer.md)
+2. [Remix the Beat!](https://github.com/jchuerva/opensouthcode-sonic-pi/blob/main/earsketch_Remix_the_Beat.md)
+3. [Make the Drums Dance!](https://github.com/jchuerva/opensouthcode-sonic-pi/blob/main/Make%20the%20Drums%20Dance!.md)
