@@ -104,3 +104,25 @@ for (var i = 1; i <= 4; i++) {
 finish()
 ```
 
+---
+---
+## OSC Code
+
+```js
+init()
+setTempo(90)
+
+// Drum beat – 4 measures
+fitMedia("RD_POP_MAINBEAT_4", 1, 1, 4)
+
+// Vamos a crear nuestro propio bloque de 4 tiempos
+// Usamos un loop (bucle)
+// Repeat the kick beat for 4 measures using a loop
+//for (var i = 1; i <= 4; i++) {
+//    makeBeat("OS_KICK01", 1, i, "0---0---0---0---");
+//    makeBeat("OS_CLAP01", 2, i, "--0-----0-----0-");
+//}
+
+finish()
+```
+
