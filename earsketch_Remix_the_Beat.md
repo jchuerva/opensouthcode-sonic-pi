@@ -25,7 +25,7 @@ makeBeat("OS_KICK06", 1, 1, "0---0---0---0---");
 makeBeat("OS_SNARE01", 2, 1, "--0-----0-----0-");
 
 // Add a steady hi-hat
-makeBeat("OS_CLOSEDHAT04", 3, 1, "0-0-0-0-0-0-0-0");
+makeBeat("OS_CLOSEDHAT04", 3, 1, "0-0-0-0-0-0-0-0-");
 
 finish();
 ```
@@ -58,12 +58,12 @@ Have kids apply **at least three** of these:
 init();
 setTempo(120); // faster tempo
 
-makeBeat("OS_KICK06", 1, 1, "0-0-0-0-0-0-0-0");
+makeBeat("OS_KICK06", 1, 1, "0-0-0-0-0-0-0-0-");
 makeBeat("OS_SNARE01", 2, 1, "----0-------0---");
-makeBeat("OS_CLOSEDHAT04", 3, 1, "0-0-0-0-0-0-0-0");
+makeBeat("OS_CLOSEDHAT04", 3, 1, "0-0-0-0-0-0-0-0-");
 
 // Add an open hat on the last measure
-makeBeat("OS_OPENHAT03", 4, 4, "0-0-0-0-0-0-0-0");
+makeBeat("OS_OPENHAT03", 4, 1, "0-----------0---");
 
 finish();
 ```
