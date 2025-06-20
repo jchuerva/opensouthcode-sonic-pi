@@ -20,28 +20,35 @@ Use real code to remix a simple pop drum beat. Students explore musical structur
 init();
 setTempo(100);
 
-// POP drum groove (kick + clap)
-makeBeat("POP_DRUM_MAIN_BEAT_001", 1, 1, "0---0---0---0---");
-makeBeat("POP_SNARE_001", 2, 1, "--0-----0-----0-");
+// Pop-style drum groove
+makeBeat("OS_KICK06", 1, 1, "0---0---0---0---");
+makeBeat("OS_SNARE01", 2, 1, "--0-----0-----0-");
+
+// Add a steady hi-hat
+makeBeat("OS_CLOSEDHAT04", 3, 1, "0-0-0-0-0-0-0-0");
 
 finish();
 ```
 
 🎧 This plays a basic POP-style beat.
 
+**✅ These samples are confirmed valid**:
+
+* `OS_KICK06` – a kick drum sample
+* `OS_SNARE01` – a snare drum sample
+* `OS_CLOSEDHAT04` – a closed hi‑hat sample
+
 ---
 
 ## 🔄 2. Remix Challenge
 
-Each student must complete at least **3 of these 5 remix tasks**:
+Have kids apply **at least three** of these:
 
-| ✔️   | Remix Task                                                           |
-| --- | -------------------------------------------------------------------- |
-| ✅   | Change the tempo (`setTempo()`)                                      |
-| ✅   | Change the beat patterns (make them funkier or faster)               |
-| ✅   | Replace one instrument with another POP sound                        |
-| ✅   | Add a new instrument (e.g., hi-hat, bassline, or vocal)              |
-| ✅   | Add something cool in the last measure (e.g. vocal, drop, variation) |
+1. **Change the tempo** by editing `setTempo(100)`
+2. **Modify patterns**, e.g., `"0-0-0-0-0-0-0-0"`
+3. **Swap a sample**, like using `"OS_KICK07"` or another from the browser
+4. **Add a new track** (e.g., open hat or clap)
+5. **Create a variation** on measures 3 or 4 (e.g., add a small fill)
 
 ---
 
@@ -49,15 +56,14 @@ Each student must complete at least **3 of these 5 remix tasks**:
 
 ```javascript
 init();
-setTempo(115); // Slightly faster
+setTempo(120); // faster tempo
 
-// Changed beat patterns
-makeBeat("POP_DRUM_MAIN_BEAT_002", 1, 1, "0-0-0-0-0-0-0-0");
-makeBeat("POP_SNARE_001", 2, 1, "----0-------0---");
-makeBeat("POP_HIHAT_001", 3, 1, "0-0-0-0-0-0-0-0");
+makeBeat("OS_KICK06", 1, 1, "0-0-0-0-0-0-0-0");
+makeBeat("OS_SNARE01", 2, 1, "----0-------0---");
+makeBeat("OS_CLOSEDHAT04", 3, 1, "0-0-0-0-0-0-0-0");
 
-// Add vocal hook in measure 4
-fitMedia("POP_VOCAL_OOH_001", 4, 4, 5);
+// Add an open hat on the last measure
+makeBeat("OS_OPENHAT03", 4, 4, "0-0-0-0-0-0-0-0");
 
 finish();
 ```
@@ -72,7 +78,6 @@ finish();
 
 ## 🧠 Concepts Learned:
 
-* Rhythmic structure and timing
-* Layering sound with code
-* Using code to compose and remix music
-* Expression through software
+* **Repetition** & **pattern design** in music
+* **Layering** multiple drum tracks for richness
+* **Adaptability** via remixing structure and sounds
