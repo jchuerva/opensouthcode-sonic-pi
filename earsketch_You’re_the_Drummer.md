@@ -115,3 +115,26 @@ Each kid:
 * Binary rhythm encoding (patterns like "0--0")
 * Looping + sequencing
 * Layering sounds for complexity
+
+---
+---
+
+## Code for OSC
+```js
+//You’re the Drummer!
+init()
+setTempo(90)
+
+// Drum beat – 4 measures (reduced to 2)
+fitMedia("RD_POP_MAINBEAT_4", 1, 1, 2)
+
+// Ahora vamos a generar nosotros nuesto propio ritmo
+// Vamos a jugar con los ritmos de KICK y CLAP para generarlo
+// 0 - suena
+// 1 - no suena
+// Custom rhythm with kicks and claps
+//makeBeat("OS_KICK01", 1, 1, "0---0---0---0---");
+//makeBeat("OS_CLAP01", 2, 1, "--0-----0-----0-");
+
+finish()
+```
